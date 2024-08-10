@@ -32,7 +32,7 @@ Before extracting the provacy features, the raw video recording undergo some pre
 
 # Multimodal Tranformer Framework
 
-For evaluating the power of the dataset, we have first tested it on two independent tasks action classification, and identifying ASD. For these we have tested on multiple combination of dataset and frameworks. The results for Action Classification, and ASD identification are listed in **Table 2** and **Table 3**
+For evaluating the power of the dataset, we have first tested it on two independent tasks action classification, and identifying ASD. For tasks we have tested on multiple combination of dataset and frameworks as listed in **Table 2**. The results for Action Classification, and ASD identification are listed in **Table 3** and **Table 4**
 
 | S.No | Data-Model Combination                               | Accuracy | F1    |
 |------|------------------------------------------------------|----------|-------|
