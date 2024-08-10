@@ -89,7 +89,7 @@ For evaluating the power of the dataset, we have first tested it on two independ
 From **Tables 2 & 3**, we observed higher accuracy values for framework **RVD → ViViT, OFD → CNN, SCD → LSTM**, so we have used this framework to do the both action classification and ASD classification tasks simultaneoulsy in same model, and performace evalution of the model is over 95% for both tasks. This show cases the strength of multimodal framework along with the privacy preserving dataset strength for giving subtle body movement information. 
 
 <div align="center">
-  <img src="data_flow_chart_mmasd.jpg" alt="Flowchart of Data Processing (don't forget to change ROMP image)" width="80%">
+  <img src="MMASD_FINAL_COPU.jpg" alt="Flowchart of Data Processing (don't forget to change ROMP image)" width="80%">
 
   <p><strong>Figure 2:</strong> Multimodal Transformer Framework</p>
 </div>
