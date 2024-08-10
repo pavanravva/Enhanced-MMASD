@@ -101,8 +101,8 @@ The complete code for each data-model combination is available in the code folde
 
 The data folder is organized into three subfolders:
 
-1. ROMP: Contains 3D body mesh coordinates stored in .npy files.
-2. 3D-Skeleton Coordinates: Includes 3D joint coordinates in CSV format. Each row represents a frame, and each column corresponds to a joint.
+1. 3D-Skeleton: Includes 3D joint coordinates in CSV format. Each row represents a frame, and each column corresponds to a joint.
+2. ROMP: Contains 3D body mesh coordinates stored in .npy files.
 3. Optical Flow: Contains dense optical flow data.
 
 
