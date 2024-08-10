@@ -95,4 +95,15 @@ From **Tables 2 & 3**, we observed higher accuracy values for framework **RVD â†
 </div>
 
 
+# Code and Data
+
+The complete code for each data-model combination is available in the code folder, and a sample dataset is provided in the data folder.
+
+The data folder is organized into three subfolders:
+
+1. ROMP: Contains 3D body mesh coordinates stored in .npy files.
+2. 3D-Skeleton Coordinates: Includes 3D joint coordinates in CSV format. Each row represents a frame, and each column corresponds to a joint.
+3. Optical Flow: Contains dense optical flow data.
+
+
 
