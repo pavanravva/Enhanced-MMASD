@@ -34,6 +34,24 @@ Before extracting the provacy features, the raw video recording undergo some pre
 
 For evaluating the power of the dataset, we have first tested it on two independent tasks action classification, and identifying ASD. For tasks we have tested on multiple combination of dataset and frameworks as listed in **Table 2**. The results for Action Classification, and ASD identification are listed in **Table 3** and **Table 4**
 
+| S.NO | Data Combination         | Name | ML Frameworks           |
+|------|--------------------------|------|-------------------------|
+| 1    | SCD                      | A1   | LSTM                    |
+| 2    | RVD                      | A2   | CNN, ViViT              |
+| 3    | OFD                      | A3   | CNN, ViViT              |
+| 4    | SCD + RV                 | A4   | LSTM + CNN              |
+| 5    | SCD + OF                 | A5   | LSTM + CNN              |
+| 6    | RVD + OFD                | A6   | CNN + CNN, ViViT + CNN  |
+| 7    | SCD + RVD + OFD          | A7   | LSTM + CNN + CNN, LSTM + ViViT + CNN |
+
+**Table 2:** Data Modalities and ML Frameworks
+
+**Notes:**
+- **SCD**: 3D Skeleton Coordinate Data
+- **RVD**: ROMP Video Data
+- **OFD**: Optical Flow Data
+
+
 | S.No | Data-Model Combination                               | Accuracy | F1    |
 |------|------------------------------------------------------|----------|-------|
 | 1    | **A1**: SCD → LSTM                                   | 0.8237   | 0.81  |
