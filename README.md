@@ -25,7 +25,7 @@ The following table lists the different actions performed during therapy session
 Before extracting the provacy features, the raw video recording undergo some pre-processing steps, the individual persons are extracted form the video, and then each person privacy features are extracted. The detailes steps of features extraction can be illustrated in Figure 1:
 ![Flowchart of Data Processing (don't forget to change ROMP image)](data_flow_chart_mmasd.jpg)
 
-**Figure 1:** Flowchart of Data Processing
+                                                                        **Figure 1:** Flowchart of Data Processing
 
 
 
