@@ -25,6 +25,25 @@ The MMASD+ dataset covers a diverse array of 11 human actions. A detailed list o
 | 10   | Maracas Forward Shaking  | 103        |
 | 11   | Maracas Shaking          | 130        |
 
+<table>
+  <tr>
+    <th style="background-color: #4CAF50; color: white;">S.NO</th>
+    <th style="background-color: #4CAF50; color: white;">Action Class</th>
+    <th style="background-color: #4CAF50; color: white;">No. Videos</th>
+  </tr>
+  <tr><td>1</td><td>Arm Swing</td><td>105</td></tr>
+  <tr><td>2</td><td>Body Swing</td><td>119</td></tr>
+  <tr><td>3</td><td>Chest Expansion</td><td>114</td></tr>
+  <tr><td>4</td><td>Drumming</td><td>168</td></tr>
+  <tr><td>5</td><td>Sing and Clap</td><td>113</td></tr>
+  <tr><td>6</td><td>Twist Pose</td><td>120</td></tr>
+  <tr><td>7</td><td>Tree Pose</td><td>129</td></tr>
+  <tr><td>8</td><td>Frog Pose</td><td>113</td></tr>
+  <tr><td>9</td><td>Squat Pose</td><td>101</td></tr>
+  <tr><td>10</td><td>Maracas Forward Shaking</td><td>103</td></tr>
+  <tr><td>11</td><td>Maracas Shaking</td><td>130</td></tr>
+</table>
+
 **Table 1:** The different actions performed during therapy sessions along with the number of videos available for each action class.
 
 
