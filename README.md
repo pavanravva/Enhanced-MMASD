@@ -1,8 +1,15 @@
-# Introduction
+# MMASD+: A Novel Dataset for Privacy-Preserving Behavior Analysis of Children with Autism Spectrum Disorder
 
-In this repository, we present a Multimodal Privacy-Preserving Dataset focused on play therapy interventions for children with ASD, along with a Multimodal Transformer Framework. The dataset comprises three types of data: 3D skeleton data, 3D body mesh data, and optical flow data, all extracted from video recordings of play therapy sessions between therapists and children with ASD. The framework is designed for two key tasks: action classification and ASD identification.
+This is the repository for **MMASD+**, an enhanced version of the original MMASD dataset. MMASD+ is a groundbreaking dataset and framework designed for the privacy-preserving analysis of behaviors in children with Autism Spectrum Disorder (ASD) during play therapy sessions. Unlike the original MMASD dataset, which lacked the ability to distinguish between therapists and children, MMASD+ addresses this limitation by providing clearer labeling and improved privacy measures, making it ideal for analyzing behaviors in children with ASD.
 
-The following table lists the different actions performed during therapy sessions along with the number of videos available for each action class:
+## Dataset Overview
+
+The MMASD+ dataset offers three types of data:
+- **3D Skeleton Data:**  Joint coordinates captured in 3D space using the MediaPipe framework.
+- **3D Body Mesh Data:** Detailed 3D body mesh reconstructions using the Regression of Multiple People (ROMP) method.
+- **Optical Flow Data:** Motion information derived from video sequences using the Farneback algorithm.
+  
+This repository also includes a framefork for two key tasks: classification of actions listed in the following table and ASD identification.
 
 | S.NO | Action Class             | No. Videos |
 |:----:|:-------------------------|-----------:|
@@ -18,11 +25,11 @@ The following table lists the different actions performed during therapy session
 | 10   | Maracas Forward Shaking  | 103        |
 | 11   | Maracas Shaking          | 130        |
 
-**Table 1:** Action Class and their size
+**Table 1:** The different actions performed during therapy sessions along with the number of videos available for each action class.
 
 
 # Privacy Features Exraction:
-Before extracting the provacy features, the raw video recording undergo some pre-processing steps, the individual persons are extracted form the video, and then each person privacy features are extracted. The detailes steps of features extraction can be illustrated in Figure 1. Complete data will be released after paper been accepted, for now we are uploading few samples of privacy features for each modality.
+Before extracting the privacy features, the raw video recording undergo some pre-processing steps, the individual persons are extracted form the video, and then each person privacy features are extracted. The detailes steps of features extraction can be illustrated in Figure 1. Complete data will be released after paper been accepted, for now we are uploading few samples of privacy features for each modality.
 
 <div align="center">
   <img src="data_flow_chart_mmasd.jpg" alt="Flowchart of Data Processing (don't forget to change ROMP image)" width="80%">
@@ -94,7 +101,6 @@ From **Tables 2 & 3**, we observed higher accuracy values for framework **RVD â†
   <p><strong>Figure 2:</strong> Multimodal Transformer Framework</p>
 </div>
 
-
 # Code and Data
 
 The complete code for each data-model combination is available in the code folder, and a sample dataset is provided in the data folder.
@@ -104,6 +110,15 @@ The data folder is organized into three subfolders:
 1. 3D-Skeleton: Includes 3D joint coordinates in CSV format. Each row represents a frame, and each column corresponds to a joint.
 2. ROMP: Contains 3D body mesh coordinates stored in .npy files.
 3. Optical Flow: Contains dense optical flow data.
+
+# References
+
+- **MMASD:** [MMASD GitHub Repository](https://github.com/Li-Jicheng/MMASD-A-Multimodal-Dataset-for-Autism-Intervention-Analysis/tree/main?tab=readme-ov-file)
+- **MediaPipe:** [MediaPipe GitHub Repository](https://github.com/google/mediapipe)
+- **ROMP:** [ROMP GitHub Repository](https://github.com/Arthur151/ROMP)
+- **Farneback:** [OpenCV Farneback Optical Flow Documentation](https://docs.opencv.org/3.4/d4/dee/tutorial_optical_flow.html)
+
+
 
 
 
