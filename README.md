@@ -29,7 +29,7 @@ The MMASD+ dataset covers a diverse array of 11 human actions. A detailed list o
 
 
 # Privacy Features Exraction:
-Before extracting the privacy features, the raw video recording undergo some pre-processing steps, the individual persons are extracted form the video by using Yolov8 and Deep SORT algorithms together, and then each person privacy features which retains the movement characteristics are extracted. The detailes steps of features extraction can be illustrated in Figure 1. 
+Before extracting privacy features, the raw video recordings undergo several pre-processing steps. First, individual persons are isolated from the video using a combination of YOLOv8 and Deep SORT algorithms. Subsequently, privacy features for each person, which preserve the essential movement characteristics, are extracted. The detailed steps of this feature extraction process are illustrated in Figure 1.
 
 <div align="center">
   <img src="data_flow_chart_mmasd.jpg" alt="Flowchart of Data Processing (don't forget to change ROMP image)" width="80%">
@@ -39,7 +39,8 @@ Before extracting the privacy features, the raw video recording undergo some pre
 
 # Multimodal Tranformer Framework
 
-For evaluating the power of the MMASD+ dataset, we have first tested it on two independent tasks action classification, and identifying ASD. For tasks we have tested on multiple combination of dataset and frameworks as listed in **Table 2**. The results for Action Classification, and ASD identification are listed in **Table 3**.
+To assess the effectiveness of the MMASD+ dataset, we evaluated it on two independent tasks: action classification and ASD identification. For these tasks, we tested various combinations of datasets and frameworks, as outlined in Table 2. The results for both action classification and ASD identification are presented in Table 3.
+
 
 | S.NO | Data Combination         | Name | ML Frameworks           |
 |------|--------------------------|------|-------------------------|
@@ -75,7 +76,7 @@ For evaluating the power of the MMASD+ dataset, we have first tested it on two i
 
 **Table 3:** Action Classification and ASD identification Results of Various Data-Model Combinations
 
-From **Tables 3**, we observed higher accuracy values for framework **RVD → ViViT, OFD → CNN, SCD → LSTM** for the both tasks, so we have used this framework to do the both action classification and ASD classification tasks simultaneoulsy in same framework, **Figure 2** displays detailed connects of Multimodal Transformer Framework , and performace evalution of the model is over 95% for both tasks. This show cases the strength of multimodal framework along with the privacy preserving dataset strength for giving subtle body movement information. 
+From Table 3, we observed that the framework RVD → ViViT, OFD → CNN, SCD → LSTM achieved higher accuracy values for both tasks. Consequently, we employed this framework to perform action classification and ASD classification simultaneously within the same combination. Figure 2 illustrates the detailed architecture of the Multimodal Transformer Framework, which demonstrated performance exceeding 95% accuracy for both tasks. This highlights the robustness of the multimodal framework, along with the strength of the privacy-preserving dataset in capturing subtle body movement information.
 
 <div align="center">
   <img src="MMASD_FINAL_COPU.jpg" alt="Flowchart of Data Processing (don't forget to change ROMP image)" width="80%">
