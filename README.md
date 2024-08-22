@@ -87,7 +87,7 @@ From Table 3, we observed that the framework RVD → ViViT, OFD → CNN, SCD →
 
 # Code and Data
 
-The complete code for each data-model combination is available in the code folder, and a dataset is provided in the data folder.
+The complete code for each data-model combination is available in the code folder, and a dataset is provided in the google drive link https://drive.google.com/drive/folders/1_riwTPPj4UxNqEGdyXqpXzjU7EhlC8N1?usp=sharing.
 
 The data folder is organized into three subfolders:
 
