@@ -104,6 +104,7 @@ This is for example for checking
 - **MediaPipe:** [MediaPipe GitHub Repository](https://github.com/google/mediapipe)
 - **ROMP:** [ROMP GitHub Repository](https://github.com/Arthur151/ROMP)
 - **Farneback:** [OpenCV Farneback Optical Flow Documentation](https://docs.opencv.org/3.4/d4/dee/tutorial_optical_flow.html)
+- **ViViT:** [ViViT GitHub Repository](scenic/projects/vivit)
 
 
 
