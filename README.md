@@ -33,7 +33,7 @@ The MMASD+ dataset covers a diverse array of 11 human actions. A detailed list o
 Before extracting privacy features, the raw video recordings undergo several pre-processing steps. First, individual persons are isolated from the video using a combination of YOLOv8 and Deep SORT algorithms. Subsequently, privacy features for each person, which preserve the essential movement characteristics, are extracted. The detailed steps of this feature extraction process are illustrated in Figure 1.
 
 <div align="center">
-  <img src="Slide1.jpg" alt="Flowchart of Data Processing (don't forget to change ROMP image)" width="80%">
+  <img src="Slide1.JPG" alt="Flowchart of Data Processing (don't forget to change ROMP image)" width="80%">
 
   <p><strong>Figure 1:</strong> Flowchart of Data Processing</p>
 </div>
