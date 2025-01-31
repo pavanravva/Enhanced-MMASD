@@ -40,7 +40,7 @@ Before extracting privacy features, the raw video recordings undergo several pre
 
 # Multimodal Tranformer Framework
 
-To assess the effectiveness of the MMASD+ dataset, we evaluated it on two independent tasks: action classification and ASD identification. For these tasks, we tested various combinations of datasets and frameworks, as outlined in Table 2. The results for both action classification and ASD identification are presented in Table 3.
+To assess the effectiveness of the MMASD+ dataset, we evaluated it on action classification. For these tasks, we tested various combinations of datasets and frameworks, as outlined in Table 2. The results for  action classification are presented in Table 3.
 
 
 | S.NO | Data Combination         | Name | ML Frameworks           |
@@ -60,24 +60,24 @@ To assess the effectiveness of the MMASD+ dataset, we evaluated it on two indepe
 - **RVD**: ROMP Video Data
 - **OFD**: Optical Flow Data
 
-| S.No | Data-Model Combination | Action Classification Accuracy | Action Classification F1 | ASD Classification Accuracy | ASD Classification F1 |
-|------|------------------------|-------------------------------|--------------------------|-----------------------------|------------------------|
-| 1    | **A1**: SCD → LSTM                       | 0.8237 | 0.81   | 0.8872 | 0.8870 |
-| 2    | **A2**: RVD → 3D-CNN                     | 0.8247 | 0.8245 | 0.8709 | 0.8707 |
-| 3    | **A2**: RVD → ViViT                      | 0.8976 | 0.8836 | 0.9431 | 0.93   |
-| 4    | **A3**: OFD → 3D-CNN                     | 0.86   | 0.8558 | 0.9271 | 0.9269 |
-| 5    | **A3**: OFD → ViViT                      | 0.9024 | 0.8924 | 0.9340 | 0.94   |
-| 6    | **A4**: SCD → LSTM, RVD → CNN            | 0.937  | 0.94   | 0.9434 | 0.9431 |
-| 7    | **A5**: SCD → LSTM, OFD → 3D-CNN         | 0.9678 | 0.956  | 0.9487 | 0.9484 |
-| 8    | **A6**: RVD → 3D-CNN, OFD → CNN          | 0.9671 | 0.96   | 0.9210 | 0.9220 |
-| 9    | **A6**: RVD → ViViT, OFD → CNN           | 0.9689 | 0.9687 | 0.9502 | 0.9511 |
-| 10   | **A6**: RVD → 3D-CNN, OFD → ViViT        | 0.9505 | 0.9502 | 0.9189 | 0.9185 |
-| 11   | **A7**: RVD → ViViT, OFD → 3D-CNN, SCD → LSTM | **0.968** | **0.97** | **0.9531** | **0.9523** |
-| 12   | **A7**: RVD → 3D-CNN, OFD → ViViT, SCD → LSTM | 0.9564 | 0.95   | 0.9364 | 0.9362 |
+| S.No | Data-Model Combination | Action Classification Accuracy | Action Classification F1 |
+|------|------------------------|-------------------------------|--------------------------|
+| 1    | **A1**: SCD → LSTM                       | 0.8237 | 0.81   |
+| 2    | **A2**: RVD → 3D-CNN                     | 0.8247 | 0.8245 | 
+| 3    | **A2**: RVD → ViViT                      | 0.8976 | 0.8836 | 
+| 4    | **A3**: OFD → 3D-CNN                     | 0.86   | 0.8558 | 
+| 5    | **A3**: OFD → ViViT                      | 0.9024 | 0.8924 | 
+| 6    | **A4**: SCD → LSTM, RVD → CNN            | 0.937  | 0.94   | 
+| 7    | **A5**: SCD → LSTM, OFD → 3D-CNN         | 0.9678 | 0.956  | 
+| 8    | **A6**: RVD → 3D-CNN, OFD → CNN          | 0.9671 | 0.96   | 
+| 9    | **A6**: RVD → ViViT, OFD → CNN           | 0.9689 | 0.9687 | 
+| 10   | **A6**: RVD → 3D-CNN, OFD → ViViT        | 0.9505 | 0.9502 | 
+| 11   | **A7**: RVD → ViViT, OFD → 3D-CNN, SCD → LSTM | **0.968** | **0.97** | 
+| 12   | **A7**: RVD → 3D-CNN, OFD → ViViT, SCD → LSTM | 0.9564 | 0.95   |
 
-**Table 3:** Action Classification and ASD identification Results of Various Data-Model Combinations
+**Table 3:** Action Classification Results of Various Data-Model Combinations
 
-From Table 3, we observed that the framework RVD → ViViT, OFD → CNN, SCD → LSTM achieved higher accuracy values for both tasks. Consequently, we employed this framework to perform action classification and ASD classification simultaneously within the same combination. Figure 2 illustrates the detailed architecture of the Multimodal Transformer Framework, which demonstrated performance exceeding 95% accuracy for both tasks. This highlights the robustness of the multimodal framework, along with the strength of the privacy-preserving dataset in capturing subtle body movement information.
+From Table 3, we observed that the framework RVD → ViViT, OFD → CNN, SCD → LSTM achieved higher accuracy values for the task. Figure 2 illustrates the detailed architecture of the Multimodal Transformer Framework, which demonstrated performance exceeding 95% accuracy for action classification task. This highlights the robustness of the multimodal framework, along with the strength of the privacy-preserving dataset in capturing subtle body movement information.
 
 <div align="center">
   <img src="Slide2.jpg" alt="Flowchart of Data Processing (don't forget to change ROMP image)" width="80%">
