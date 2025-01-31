@@ -33,7 +33,7 @@ The MMASD+ dataset covers a diverse array of 11 human actions. A detailed list o
 Before extracting privacy features, the raw video recordings undergo several pre-processing steps. First, individual persons are isolated from the video using a combination of YOLOv8 and Deep SORT algorithms. Subsequently, privacy features for each person, which preserve the essential movement characteristics, are extracted. The detailed steps of this feature extraction process are illustrated in Figure 1.
 
 <div align="center">
-  <img src="data_flow_chart_mmasd.jpg" alt="Flowchart of Data Processing (don't forget to change ROMP image)" width="80%">
+  <img src="Slide1.jpg" alt="Flowchart of Data Processing (don't forget to change ROMP image)" width="80%">
 
   <p><strong>Figure 1:</strong> Flowchart of Data Processing</p>
 </div>
@@ -80,7 +80,7 @@ To assess the effectiveness of the MMASD+ dataset, we evaluated it on two indepe
 From Table 3, we observed that the framework RVD → ViViT, OFD → CNN, SCD → LSTM achieved higher accuracy values for both tasks. Consequently, we employed this framework to perform action classification and ASD classification simultaneously within the same combination. Figure 2 illustrates the detailed architecture of the Multimodal Transformer Framework, which demonstrated performance exceeding 95% accuracy for both tasks. This highlights the robustness of the multimodal framework, along with the strength of the privacy-preserving dataset in capturing subtle body movement information.
 
 <div align="center">
-  <img src="Final_To_submit_model_modifies.jpg" alt="Flowchart of Data Processing (don't forget to change ROMP image)" width="80%">
+  <img src="Slide2.jpg" alt="Flowchart of Data Processing (don't forget to change ROMP image)" width="80%">
 
   <p><strong>Figure 2:</strong> Multimodal Transformer Framework</p>
 </div>
