@@ -80,7 +80,7 @@ To assess the effectiveness of the MMASD+ dataset, we evaluated it on action cla
 From Table 3, we observed that the framework RVD → ViViT, OFD → CNN, SCD → LSTM achieved higher accuracy values for the task. Figure 2 illustrates the detailed architecture of the Multimodal Transformer Framework, which demonstrated performance exceeding 95% accuracy for action classification task. This highlights the robustness of the multimodal framework, along with the strength of the privacy-preserving dataset in capturing subtle body movement information.
 
 <div align="center">
-  <img src="Slide2.jpg" alt="Flowchart of Data Processing" width="80%">
+  <img src="MMASD_Teaser.jpg" alt="Flowchart of Data Processing" width="80%">
 
   <p><strong>Figure 2:</strong> Multimodal Transformer Framework</p>
 </div>
