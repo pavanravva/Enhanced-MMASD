@@ -72,15 +72,15 @@ To assess the effectiveness of the MMASD+ dataset, we evaluated it on action cla
 | 8    | **A6**: RVD → 3D-CNN, OFD → CNN          | 0.9671 | 0.96   | 
 | 9    | **A6**: RVD → ViViT, OFD → CNN           | 0.9689 | 0.9687 | 
 | 10   | **A6**: RVD → 3D-CNN, OFD → ViViT        | 0.9505 | 0.9502 | 
-| 11   | **A7**: RVD → ViViT, OFD → 3D-CNN, SCD → LSTM | **0.968** | **0.97** | 
-| 12   | **A7**: RVD → 3D-CNN, OFD → ViViT, SCD → LSTM | 0.9564 | 0.95   |
+| 11   | **A7**: RVD → ViViT, OFD → 3D-CNN, SCD → LSTM | **0.989** | **0.989** | 
+| 12   | **A7**: RVD → 3D-CNN, OFD → ViViT, SCD → LSTM | 0.965 | 0.955   |
 
 **Table 3:** Action Classification Results of Various Data-Model Combinations
 
 From Table 3, we observed that the framework RVD → ViViT, OFD → CNN, SCD → LSTM achieved higher accuracy values for the task. Figure 2 illustrates the detailed architecture of the Multimodal Transformer Framework, which demonstrated performance exceeding 95% accuracy for action classification task. This highlights the robustness of the multimodal framework, along with the strength of the privacy-preserving dataset in capturing subtle body movement information.
 
 <div align="center">
-  <img src="Slide2.jpg" alt="Flowchart of Data Processing (don't forget to change ROMP image)" width="80%">
+  <img src="Slide2.jpg" alt="Flowchart of Data Processing" width="80%">
 
   <p><strong>Figure 2:</strong> Multimodal Transformer Framework</p>
 </div>
